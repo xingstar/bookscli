@@ -1,0 +1,98 @@
+{% extends '../layouts/layout.html' %}
+{% block title %} books massnage {% endblock %}
+{% block head %}
+    <style type="text/css">
+        .search-lable{
+            display: inline-block;
+            padding-left: 15px;
+        }
+        .normal-input{
+            padding: 5px;
+            font-size: 12px;
+        }
+        .btn{
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+            font-size: 14px;
+        }
+        .primary-btn{
+            background-color: #ecf5ff;
+            border-color: #409eff;
+            color: #409eff;
+        }
+        .danger-btn{
+            color: #f56c6c;
+            background: #fef0f0;
+            border-color: #fbc4c4;
+        }
+        ul, li{
+            list-style: none;
+        }
+        th, td{
+            padding:5px 10px;
+        }
+        .cell{
+            display: inline-block;
+            padding-right: 10px;
+        }
+    </style>
+{% endblock  %}
+{% block content %}
+    <!-- <form>
+        <label class="search-lable" for="bookName">书名：</label>
+        <input class="normal-input" type="text" name="bookName" id="bookName"/>
+        <label class="search-lable" for="author">作者：</label>
+        <input class="normal-input" type="text" name="author" id="author"/>
+        <label class="search-lable" for="bookNum">图书编号：</label>
+        <input class="normal-input" type="text" name="bookNum" id="bookNum" />
+        <input class="btn primary-btn" type="submit" name="" value="查询">
+        <input class="btn primary-btn" type="submit" name="" id="addBook" value="新增">
+    </form> -->
+    <ul>
+        {% for item in data %}
+            <li>
+                <p class="cell">[[ item.bookID ]]</p>
+                <p class="cell">[[item.bookName]]</p>
+                <p class="cell">[[item.author]]</p>
+                <p class="cell">[[item.price]]</p>
+                <p class="cell">
+                    <a href="/books/view?id=[[item.bookID]]">查看</a>
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+    <!-- <table>
+        <thead>
+            <tr>
+                <th>编号</th>
+                <th>书名</th>
+                <th>作者</th>
+                <th>价格</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in data %}
+                <tr>
+                    <td>[[item.bookID]]</td>
+                    <td>[[item.bookName]]</td>
+                    <td>[[item.auther]]</td>
+                    <td>[[item.price]]</td>
+                    <td>
+                        <input class="btn primary-btn" type="button" name="" value="修改">
+                        <input class="btn primary-btn" type="button" name="" value="查看">
+                        <input class="btn danger-btn" type="button" name="" value="删除">
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table> -->
+    
+{% endblock %}
+{% block scripts %}
+    <script type="text/javascript">
+        console.log('图书列表也');
+    </script>
+{% endblock %}

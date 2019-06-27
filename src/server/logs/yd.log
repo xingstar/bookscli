@@ -1,0 +1,27 @@
+[2019-06-26T16:24:48.633] [ERROR] cheese - { Error: ENOENT: no such file or directory, open '/Users/ministar/Documents/code/coder/yideng/bookscli/src/views/books/list.html'
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/ministar/Documents/code/coder/yideng/bookscli/src/views/books/list.html' }
+[2019-06-26T16:29:20.318] [ERROR] cheese - Error: Unexpected end of tag "block" on line 89 in file /Users/ministar/Documents/code/coder/yideng/bookscli/src/web/views/books/list.html.
+    at Object.exports.throwError (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/utils.js:188:9)
+    at parseTag (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/parser.js:659:15)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/parser.js:778:15
+    at Object.exports.each (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/parser.js:755:9)
+    at exports.Swig.parse (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/swig.js:383:19)
+    at exports.Swig.precompile (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/swig.js:526:23)
+    at exports.Swig.compile (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/swig.js:651:16)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
+[2019-06-26T16:29:21.543] [ERROR] cheese - Error: Unexpected end of tag "block" on line 89 in file /Users/ministar/Documents/code/coder/yideng/bookscli/src/web/views/books/list.html.
+    at Object.exports.throwError (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/utils.js:188:9)
+    at parseTag (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/parser.js:659:15)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/parser.js:778:15
+    at Object.exports.each (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/utils.js:45:11)
+    at Object.exports.parse (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/parser.js:755:9)
+    at exports.Swig.parse (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/swig.js:383:19)
+    at exports.Swig.precompile (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/swig.js:526:23)
+    at exports.Swig.compile (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/swig.js:651:16)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/swig-templates/lib/swig.js:729:27
+    at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:511:3)
