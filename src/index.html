@@ -4,7 +4,52 @@
     <title></title>
 </head>
 <body>
-    <script type="module" src="main.js"></script>
-    <script type="nomodule" src="main-es5.js"></script>
+    1、支持module 不支持nomodule 下载2遍（执行2遍）,所以这种情况是要把 nomodule的加载干掉
+  <strong>属性</strong>不会影响js的加载 所以nomodule不支持也会加载 <!--<script xxxxx src="a.js"></script> -->
+2、但是如果type的值错了，就不会加载 type="xxxx" 就不会加载这个js, 所以如果 module和nomodule都不支持 就只会下载nomodule的js
+
+    <!-- <button id="btn">点击</button> -->
+   <!--  <script>
+    // 官方的 safari-nomodule.js
+    (function(){
+        var check = document.createElement('script'); // <script><\/script>
+        console.log(0);
+        // 刚创建的 check标签是空的,所以不会有 noModule属性， 并且在他加载之前执行
+        if(!('noModule' in check) && 'onbeforeload' in check){
+            // 如果不支持noModule 并且在加载之前
+            var support = false;
+            document.addEventListener('beforeload', function(e){
+                console.log(2);
+                if(e.target === check) {
+                    support = true;
+                } else if(!e.target.hasAttribute('nomodule') || !support){
+                    return;
+                }
+
+                e.preventDefault();
+            },true);
+
+            console.log(1);
+            // 下面这几行代码是先于 上面这个监听事件执行的
+            check.type = 'module';
+            check.src = '.';
+            document.head.appendChild(check);
+            check.remove();
+        }
+    }());
+</script> -->
+<script type="text/javascript">
+    (function(){
+        var btn = document.createElement('button');
+        document.addEventListener('beforeload',function(e){
+            console.log(22);
+        },true);
+        console.log(11);
+        btn.attributes.id = 'btn';
+        btn.innerHTML = 'test';
+        document.body.appendChild(btn);
+        btn.remove();
+    })();
+</script>
 </body>
 </html>

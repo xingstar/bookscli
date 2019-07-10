@@ -1,5 +1,5 @@
 class Index{
-    contructor(str){
+    constructor(str){
         this.str = str;
     }
     say(){

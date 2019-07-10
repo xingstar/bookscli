@@ -6,16 +6,27 @@
   "directories": {
     "test": "tests"
   },
+  "config": {
+    "port": 3000,
+    "env": "development"
+  },
   "scripts": {
-    "test": "echo 3333",
+    "test": "echo 222",
     "pretest": "echo 111",
     "init": "npm run deploy && npm run test",
     "init2": "npm-run-all --parallel deploy test",
     "docs": "jsdoc ./**/*.js -d ./docs/jsdoc",
-    "deploy": "echo 222",
+    "deploy": "echo 333",
     "client:dev": "scripty",
+    "client:deves5": "scripty",
+    "client:devs": "npm run client:deves5 && npm run client:dev",
     "client:prod": "scripty",
-    "server:dev": "cross-env NODE_ENV=development nodemon ./app.js",
+    "client:server": "scripty",
+    "server:dev": "scripty",
+    "server:prod": "scripty",
+    "server:start": "scripty",
+    "server:hint": "scripty",
+    "testnev": "webpack --mode $npm_package_config_env",
     "build": "babel ./assets/scripts/index.js -o ./assets/scripts/index-bundle.js"
   },
   "author": "",
@@ -28,23 +39,38 @@
     "koa-swig": "^2.2.1",
     "lodash": "^4.17.11",
     "log4js": "^4.3.1",
+    "node-bash-title": "0.0.2",
     "node-fetch": "^2.6.0",
+    "node-notifier": "^5.4.0",
     "webpack": "^4.35.0",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.5",
+    "yargs-parser": "^13.1.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
     "@babel/preset-env": "^7.4.5",
     "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.3",
     "cross-env": "^5.2.0",
+    "css-loader": "^3.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
+    "glob": "^7.1.4",
+    "gulp-babel": "^8.0.0",
+    "gulp-rollup": "^2.16.2",
+    "gulp-watch": "^5.0.1",
     "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
     "mockjs": "^1.0.1-beta3",
     "nodemon": "^1.19.1",
     "npm-run-all": "^4.1.5",
+    "rollup-plugin-replace": "^2.2.0",
     "scripty": "^1.9.1",
+    "style-loader": "^0.23.1",
+    "webpack-build-notifier": "^1.0.3",
     "webpack-dev-server": "^3.7.2",
+    "webpack-manifest-plugin": "^2.0.4",
     "webpack-merge": "^4.2.1"
   }
 }

@@ -1,4 +1,4 @@
-const Books = require("../models/Books");
+import Books from "../models/Books";
 class BooksController{
     constructor() {
 
@@ -13,7 +13,7 @@ class BooksController{
         });
 
         console.log(result);
-        ctx.body = await ctx.render('books/list',{
+        ctx.body = await ctx.render('books/pages/list',{
             data:result.data
         }); // 不需要在books前加/
     }
@@ -27,10 +27,10 @@ class BooksController{
         });
 
         console.log("查看页面数据:",result);
-        ctx.body = await ctx.render('books/view',{
+        ctx.body = await ctx.render('books/pages/view',{
             data:result.data
         });
     }
 }
 
-module.exports = BooksController;
+export default BooksController;

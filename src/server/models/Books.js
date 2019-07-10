@@ -5,7 +5,7 @@
  * @DateTime 2019-06-16T22:32:26+0800
  * @return   {class}               
  */
-const SafeRequest = require('../utils/SafeRequest');
+import SafeRequest from '../utils/SafeRequest';
 class Books{
     /**
      * Books类， 从后台获取的图书相关的数据
@@ -66,4 +66,4 @@ class Books{
     // }
 }
 
-module.exports = Books;
+export default Books;

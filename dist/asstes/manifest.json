@@ -1,0 +1,13 @@
+{
+  "books-index.js": "/scripts/books-index.bundle.js",
+  "books-list.css": "/style/books-list.css",
+  "books-list.js": "/scripts/books-list.bundle.js",
+  "books-view.css": "/style/books-view.css",
+  "books-view.js": "/scripts/books-view.bundle.js",
+  "../components/list/list.html": "/../components/list/list.html",
+  "../components/view/view.html": "/../components/view/view.html",
+  "../views/books/pages/index.html": "/../views/books/pages/index.html",
+  "../views/books/pages/list.html": "/../views/books/pages/list.html",
+  "../views/books/pages/view.html": "/../views/books/pages/view.html",
+  "../views/layouts/layout.html": "/../views/layouts/layout.html"
+}

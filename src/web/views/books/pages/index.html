@@ -1,0 +1,63 @@
+{% extends '../../layouts/layout.html' %}
+{% block title %} books massnage {% endblock %}
+{% block head %}
+    <link rel="stylesheet" type="text/css" href="/styles/index.css">
+    
+{% endblock  %}
+{% block content %}
+    <div>
+            <h5>[[data]]</h5>
+            <form>
+                <label>用户名：</label>
+                <input type="text" name="usrname" id="username">
+                <button type="submit" id="btn">提交</button>
+            </form>
+            <div id="app-6">
+              <p>{{ message }}</p>
+              <input v-model="message">
+
+            </div>
+            <input type="button" name="" value="函数式编程节流" id="js-btn">
+     <div>
+    
+     
+{% endblock %}
+{% block scripts %}
+    <script type="text/javascript" src="../../assets/js/yd.js"></script>
+    <!-- 这就是 浏览器支持es6 就直接引用，不支持就引编译之后的，但是如果浏览器不支持module就歇菜了， 所以后面需要进行判断 如果不支持type="module"就把这个属性去掉就可以了  另： 只要支持了type="module"es6的基本语法就可以支持了？ -->
+    <script type="module">
+        // console.log(_);
+        // _('ss').map(function(item){
+        //     console.log('item', item);
+        // });
+        // _.map();
+        
+        let btn = document.getElementById('js-btn');
+        // 不做节流这样就崩溃了
+        // btn.addEventListener('click', function(){
+        //     // $.ajax 
+        //     console.log(Math.random());
+        // });
+        
+        // 下面就是使用函数式编程进行 控制，只要加一个函数即可， 对之前的代码没有太大的改动，这就是函数式编程的有点，函数可以作为参数把函数传递进去就可以了
+        btn.addEventListener('click', _.throttle(function(){
+            // $.ajax 
+            console.log(Math.random());
+        },1000));
+        import("/scripts/index.js").then((_) => {
+            console.log(_);
+        });
+
+
+        
+    </script>
+    <script type="nomodule" src="https://cdn.bootcss.com/systemjs/3.1.6/system.min.js">
+    </script>
+    <script type="nomodule">
+        // 还是直接使用index.js是不行的，需要babel编译一下 安装的就是 npm install --save-dev @babel/core @babel/cli
+        
+        System.import("/scripts/index-bundle.js").then((_) => {
+            console.log(_.default);
+        });
+    </script>
+{% endblock %}

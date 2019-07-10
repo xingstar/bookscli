@@ -1,14 +1,14 @@
-const { extend }  = require("lodash");
+import { extend } from "lodash";
 
-const { join } = require('path');
+import { join } from 'path';
 
 let config = {
-    "viewDir": join(__dirname, "../../web","views"), // '..'就是表示上一层目录
-    "staticDir": join(__dirname, "../../web","asstes"),
+    "viewDir": join(__dirname, "..","views"), // '..'就是表示上一层目录
+    "staticDir": join(__dirname, "..","asstes"),
 
 }
 
-if(process.env.NODE_ENV == 'development'){ // process.env.NODE_ENV设置环境变量的
+if(process.env.NODE_ENV == 'development'){ // process.env.NODE_ENV设置环境变量的， 直接tree shaking的时候识别不了环境变量，需要使用rollup-plugin-replace
     const localConfig = {
         port: 8081,
         // baseUrl: '../mockData/'
@@ -27,4 +27,4 @@ if(process.env.NODE_ENV == 'production'){
     config = extend(config,proConfig);
 }
 
-module.exports = config
+export default config

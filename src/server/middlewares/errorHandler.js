@@ -28,4 +28,4 @@ const errHandler = {
     }
 }
 
-module.exports = errHandler;
+export default errHandler;

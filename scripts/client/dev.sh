@@ -1,2 +1,3 @@
 #web端部署环境
-webpack --mode development
+# rm -rf dist
+webpack --mode development  --modules module
