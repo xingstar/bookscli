@@ -4,7 +4,7 @@ import { join } from 'path';
 
 let config = {
     "viewDir": join(__dirname, "..","views"), // '..'就是表示上一层目录
-    "staticDir": join(__dirname, "..","asstes"),
+    "staticDir": join(__dirname, "..","assets"),
 
 }
 

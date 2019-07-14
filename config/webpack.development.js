@@ -6,7 +6,10 @@ var ICON = join(__dirname, '../dog.png');
 // console.log(ICON);
 const setTitle = require('node-bash-title');
 const CopyPlugin = require('copy-webpack-plugin');
+const webpack  = require('webpack');
 setTitle('🍻  开发环境');
+
+console.log(webpack);
 module.exports = {
     devServer:{
         contentBase: join(__dirname,'../dist'),
@@ -15,6 +18,7 @@ module.exports = {
     },
     
     plugins:[
+        new webpack.HotModuleReplacementPlugin(),
         new CopyPlugin([
           { from: join(__dirname,"../","src/web/views/layouts/layout.html"), to: '../views/layouts/layout.html' },
           { from: join(__dirname,"../","src/web/components"),

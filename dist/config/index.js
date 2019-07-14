@@ -12,7 +12,7 @@ var _path = require("path");
 let config = {
   "viewDir": (0, _path.join)(__dirname, "..", "views"),
   // '..'就是表示上一层目录
-  "staticDir": (0, _path.join)(__dirname, "..", "asstes")
+  "staticDir": (0, _path.join)(__dirname, "..", "assets")
 };
 
 if (process.env.NODE_ENV == 'development') {

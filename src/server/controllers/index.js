@@ -16,5 +16,6 @@ export default (app) => {
       _.get('/index.html',indexController.actionIndex);
       _.get('/books/list',booksController.actionList);
       _.get('/books/view',booksController.actionView);
+      _.get('/books/add',booksController.actionAdd);
     }));
 }

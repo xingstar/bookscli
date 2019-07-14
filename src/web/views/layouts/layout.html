@@ -5,8 +5,32 @@
     {% block head%}{% endblock %}
 </head>
 <body>
-{% block content %} {% endblock %}
+    {% include "../../components/banner/banner.html" %}
+        layouthtml outer
+    <div id="app">
+        {% block content %} {% endblock %}
+    </div>
+    
 <script type="text/javascript" src="https://cdn.bootcss.com/vue/2.6.10/vue.min.js"></script>
-{% block scripts %}{% endblock %}
+<!-- <script src="localforage.js"></script> -->
+<!-- <script>console.log('localforage is: ', localforage);</script> -->
+<script src="/scripts/basket.full.min.js"></script>
+<script>
+    // 可以生效，但是这样就会跟单独的页面里加载的js重复， 
+    // basket.require({url: '/scripts/books-list.bundle.js'}).then(function(){
+    //     console.log('entersdfas?');
+    // });
+    // basket.require({url: '/scripts/books-view.bundle.js'}).then(function(){
+    //     console.log('view basket?');
+    // });
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+<script>
+    $(document).pjax('a','#app');
+</script>
+{% block scripts %}
+
+{% endblock %}
 </body>
 </html>

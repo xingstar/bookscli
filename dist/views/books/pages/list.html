@@ -30,7 +30,9 @@
     
 {% endblock %}
 {% block scripts %}
-    <script type="module" src="/scripts/books-list.bundle.js"></script>
+    <script class="lazyload-js">basket.require({url: '/scripts/books-list.bundle.js'}).then(function(){
+                console.log('entersdfas?');
+            });</script>
 {% endblock %}
 
 

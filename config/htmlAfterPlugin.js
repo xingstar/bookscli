@@ -28,7 +28,10 @@ const assetsHelp = (data) => {
     let js = [];
     let css = [];
     const dir = {
-        js: item => `<script type="module" src="${item}"></script>`,
+        // js: item => `<script type="module" src="${item}"></script>`,
+        js: item => `basket.require({url: '${item}'}).then(function(){
+                console.log('entersdfas?');
+            });`,
         css: item => `<link rel="stylesheet" href="${item}">`
     }
     for(let jsitem of data.js){
@@ -87,7 +90,7 @@ class htmlAfterPlugin{
                 let _html = htmlPluginData.html; // htmlPluginData.html是字符串
                 _html = _html.replace(/@components\//g,'../../../components/');
                 const result = assetsHelp(htmlPluginData.assets);
-                _html = _html.replace("<!-- injectjs -->",result.js.join(''));
+                _html = _html.replace("<!-- injectjs -->",`<script class="lazyload-js">${result.js.join(';')}</script>`);
                 _html = _html.replace("<!-- injectcss -->",result.css.join(''));
                 htmlPluginData.html = _html;
             })

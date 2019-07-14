@@ -9,9 +9,21 @@ const __mergeModuleConfig = require(`./config/webpack.${__module}.js`); // 把�
 const merge = require('webpack-merge');
 const glob = require('glob');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
 
 // 生成manifest插件
 const ManifestPlugin = require('webpack-manifest-plugin');
+
+// 遍历所有的第三方js
+// const jsFiles = glob.sync('./src/public/javascript/*.js');
+// let _entryVendor = {};
+// for(let jsItem of jsFiles){
+    
+//     let filename = jsItem.split('/').pop().split('.')[0];
+//     console.log('🍇',jsItem, '🍇', filename);
+//     _entryVendor[filename] = jsItem;
+// }
+
 
 let _entry = {};
 let _plugins = [];
@@ -36,14 +48,14 @@ for(let item of files){
         }))
     }
 }
-
+// console.log('====🌹', merge(_entry, _entryVendor));
 console.log('用户参数', __mode, __module);
 
 const webpackConfig = {
     // 生成多个js
     entry:_entry,
     output:{
-        path: path.join(__dirname,'./dist/asstes'),
+        path: path.join(__dirname,'./dist/assets'),
         publicPath: '/', //  跟node结合需要声明一个publicPath 这个地方有待研究 具体什么意思
         filename: 'scripts/[name].bundle.js'
     },
@@ -78,6 +90,12 @@ const webpackConfig = {
             filename: __mode != 'production' ? 'style/[name].css': 'style/[name].[hash].css',
             chunkFilename: __mode !== 'production' ? 'style/[id].css' : 'style/[id].[hash].css',
         }),
+        new CopyPlugin([
+            { from: path.join(__dirname,'',"src/public/javascript"),
+               to: '../assets/scripts',
+               ignore: ['.DS_Store'], // copy文件时 需要注意的点就是 一些系统的文件不要复制过去
+            },
+          ]),
         new ManifestPlugin(),
         new htmlAfterPlugin(__module), // 传入一个module参数，是nomodule还是module
     ]

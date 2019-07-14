@@ -1,12 +1,12 @@
 {% extends '../../layouts/layout.html' %}
-{% block title %} books massnage {% endblock %}
+{% block title %} 添加 {% endblock %}
 {% block head %}
 {% endblock  %}
 {% block content %}
-    {%  include "../../../components/view/view.html" %}
+    {%  include "../../../components/add/add.html" %}
 {% endblock %}
 {% block scripts %}
-    <script class="lazyload-js">basket.require({url: '/scripts/books-view.bundle.js'}).then(function(){
+    <script class="lazyload-js">basket.require({url: '/scripts/books-add.bundle.js'}).then(function(){
                 console.log('entersdfas?');
             });</script>
 {% endblock %}

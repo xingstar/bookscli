@@ -23,8 +23,9 @@
      
 {% endblock %}
 {% block scripts %}
-    <script type="text/javascript" src="../../assets/js/yd.js"></script>
+    <!-- <script type="text/javascript" src="../../assets/js/yd.js"></script> -->
     <!-- 这就是 浏览器支持es6 就直接引用，不支持就引编译之后的，但是如果浏览器不支持module就歇菜了， 所以后面需要进行判断 如果不支持type="module"就把这个属性去掉就可以了  另： 只要支持了type="module"es6的基本语法就可以支持了？ -->
+    <!-- <script src="/scripts/basket.full.min.js"></script> -->
     <script type="module">
         // console.log(_);
         // _('ss').map(function(item){
@@ -40,16 +41,18 @@
         // });
         
         // 下面就是使用函数式编程进行 控制，只要加一个函数即可， 对之前的代码没有太大的改动，这就是函数式编程的有点，函数可以作为参数把函数传递进去就可以了
-        btn.addEventListener('click', _.throttle(function(){
-            // $.ajax 
-            console.log(Math.random());
-        },1000));
-        import("/scripts/index.js").then((_) => {
-            console.log(_);
-        });
-
-
+        // btn.addEventListener('click', _.throttle(function(){
+        //     // $.ajax 
+        //     console.log(Math.random());
+        // },1000));
+        // import("/scripts/index.js").then((_) => {
+        //     console.log(_);
+        // });
         
+        
+        // basket.require({url: '/scripts/books-list.bundle.js'}).then(function(){
+        //     console.log('enter?');
+        // });
     </script>
     <script type="nomodule" src="https://cdn.bootcss.com/systemjs/3.1.6/system.min.js">
     </script>

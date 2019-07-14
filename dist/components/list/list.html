@@ -1,15 +1,16 @@
+<div id="js-hooks-data" class="pjaxcontext">
 
-<ul>
-    {% for item in data %}
-        <li>
-            <p class="cell">[[ item.bookID ]]</p>
-            <p class="cell">[[item.bookName]]</p>
-            <p class="cell">[[item.author]]</p>
-            <p class="cell">[[item.price]]</p>
-            <p class="cell">
-                <a href="/books/view?id=[[item.bookID]]">查看</a>
-            </p>
-        </li>
-    {% endfor %}
-</ul>
-
+    <ul>
+        {% for item in data %}
+            <li>
+                <p class="cell">[[ item.bookID ]]</p>
+                <p class="cell">[[item.bookName]]</p>
+                <p class="cell">[[item.author]]</p>
+                <p class="cell">[[item.price]]</p>
+                <p class="cell">
+                    <a href="/books/view?id=[[item.bookID]]">查看</a>
+                </p>
+            </li>
+        {% endfor %}
+    </ul>
+</div>
