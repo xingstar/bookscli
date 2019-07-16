@@ -384,3 +384,15 @@ Resolution path: booksService
     at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:351:31)
     at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
     at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
+[2019-07-17T07:41:48.723] [ERROR] cheese - ReferenceError: html is not defined
+    at Promise (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:204:21)
+    at new Promise (<anonymous>)
+    at createSSRStreamPromise (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:202:10)
+    at BooksController.actionAdd (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:172:13)
+    at <anonymous>
+[2019-07-17T07:41:50.083] [ERROR] cheese - ReferenceError: html is not defined
+    at Promise (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:204:21)
+    at new Promise (<anonymous>)
+    at createSSRStreamPromise (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:202:10)
+    at BooksController.actionAdd (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:172:13)
+    at <anonymous>

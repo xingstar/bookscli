@@ -11,38 +11,48 @@ var _path = require("path");
 
 var _cheerio = _interopRequireDefault(require("cheerio"));
 
+var _stream = require("stream");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// 分段返回html
 let config = {
   "viewDir": (0, _path.join)(__dirname, "..", "views"),
   // '..'就是表示上一层目录
-  "staticDir": (0, _path.join)(__dirname, "..", "assets"),
-  "renderFn": function (ctx, html) {
-    // 把站内跳和直接刷的判断封装成了一个函数，写在了这里。
-    if (ctx.request.header['x-pjax']) {
-      console.log('view站内跳转');
+  "staticDir": (0, _path.join)(__dirname, "..", "assets") // "renderFn": async function(ctx,html){  // 把站内跳和直接刷的判断封装成了一个函数，写在了这里。
+  //     if(ctx.request.header['x-pjax']){
+  //         console.log('view站内跳转');
+  //         const $ = cheerio.load(html);
+  //         // ctx.body = $('.pjaxcontext').html();
+  //         let _result = '';
+  //         $('.pjaxcontext').each(function() { // 不能用箭头
+  //             _result += $(this).html();
+  //         });
+  //         $(".lazyload-js").each(function() {
+  //             console.log("🌲🌲🌲🌲js",$(this));
+  //             _result += `<script src="${$(this).attr("src")}"></script>`;
+  //         });
+  //         $(".lazyload-css").each(function() {
+  //             _result += `<link href="${$(this).attr("href")}">`;
+  //         });
+  //         ctx.body = _result;
+  //     }else {
+  //         console.log("view直接刷");
+  //         function createSSRStreamPromise(){
+  //             return new Promise((resolve,reject) => {
+  //                 const htmlStream = new Readable();
+  //                 htmlStream.push(html);
+  //                 htmlStream.push(null);
+  //                 htmlStream.on("error", (err) => {
+  //                     reject(err);
+  //                 }).pipe(ctx.res);
+  //             })
+  //         }
+  //         await createSSRStreamPromise();
+  //         // ctx.body = html;
+  //     }
+  // }
 
-      const $ = _cheerio.default.load(html); // ctx.body = $('.pjaxcontext').html();
-
-
-      let _result = '';
-      $('.pjaxcontext').each(function () {
-        // 不能用箭头
-        _result += $(this).html();
-      });
-      $(".lazyload-js").each(function () {
-        console.log("🌲🌲🌲🌲js", $(this));
-        _result += `<script src="${$(this).attr("src")}"></script>`;
-      });
-      $(".lazyload-css").each(function () {
-        _result += `<link href="${$(this).attr("href")}">`;
-      });
-      ctx.body = _result;
-    } else {
-      console.log("view直接刷");
-      ctx.body = html;
-    }
-  }
 };
 
 if (process.env.NODE_ENV == 'development') {
