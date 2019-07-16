@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "2f99c8cc2476c35a8f0b";
+/******/ 	var hotCurrentHash = "a6383954b5fc43f08c73";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -992,7 +992,7 @@ eval("module.exports = function(module) {\n\tif (!module.webpackPolyfill) {\n\t\
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 1563283815508\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/web/components/list/list.css?");
+eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 1563284047067\n      var cssReload = __webpack_require__(/*! ./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js */ \"./node_modules/mini-css-extract-plugin/dist/hmr/hotModuleReplacement.js\")(module.i, {\"hmr\":true,\"locals\":false});\n      module.hot.dispose(cssReload);\n      module.hot.accept(undefined, cssReload);\n    }\n  \n\n//# sourceURL=webpack:///./src/web/components/list/list.css?");
 
 /***/ }),
 
@@ -1000,10 +1000,11 @@ eval("// extracted by mini-css-extract-plugin\n    if(true) {\n      // 15632838
 /*!*****************************************!*\
   !*** ./src/web/components/list/list.js ***!
   \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("throw new Error(\"Module parse failed: Identifier 'list' has already been declared (6:6)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n|     }\\n| }\\n> const list\\n| export default list;\");\n\n//# sourceURL=webpack:///./src/web/components/list/list.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\nconst list = {\n    init(){\n        console.log(\"list js的入口文件\");\n    }\n}\n/* harmony default export */ __webpack_exports__[\"default\"] = (list);\n\n//# sourceURL=webpack:///./src/web/components/list/list.js?");
 
 /***/ }),
 
@@ -1015,7 +1016,7 @@ eval("throw new Error(\"Module parse failed: Identifier 'list' has already been 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_list_list_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/list/list.js */ \"./src/web/components/list/list.js\");\n/* harmony import */ var _components_list_list_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_components_list_list_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_list_list_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/list/list.css */ \"./src/web/components/list/list.css\");\n/* harmony import */ var _components_list_list_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_list_list_css__WEBPACK_IMPORTED_MODULE_1__);\n// 这个js的命名规则是books文件夹，下page中的特定的html ,比如这个就是为list.html服务的\n// 这个是为了配合webpack 将相应html文件对应的css和js导入进来\n\n_components_list_list_js__WEBPACK_IMPORTED_MODULE_0___default.a.init();\n\n\n//# sourceURL=webpack:///./src/web/views/books/books-list.entry.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_list_list_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/list/list.js */ \"./src/web/components/list/list.js\");\n/* harmony import */ var _components_list_list_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/list/list.css */ \"./src/web/components/list/list.css\");\n/* harmony import */ var _components_list_list_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_components_list_list_css__WEBPACK_IMPORTED_MODULE_1__);\n// 这个js的命名规则是books文件夹，下page中的特定的html ,比如这个就是为list.html服务的\n// 这个是为了配合webpack 将相应html文件对应的css和js导入进来\n\n_components_list_list_js__WEBPACK_IMPORTED_MODULE_0__[\"default\"].init();\n\n\n//# sourceURL=webpack:///./src/web/views/books/books-list.entry.js?");
 
 /***/ })
 
