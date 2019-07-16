@@ -16,7 +16,12 @@ function builddev() {
             .pipe(babel({
                 babelrc: false, // 这个就是 不用管外部的babel了
                 // plugin that sets some metadata
-                plugins: ["@babel/plugin-transform-modules-commonjs"]
+                plugins: [
+                    ["@babel/plugin-proposal-decorators", {
+                        "legacy": true
+                    }],
+                    "@babel/plugin-transform-modules-commonjs"
+                ]
             })).pipe(gulp.dest('./dist')); // 这个pipe放到哪里的问题 增量 全量
     })
     
@@ -28,7 +33,12 @@ function buildprod() {
         .pipe(babel({
             babelrc: false,
             ignore: cleanEntry, // 忽略到的文件
-            plugins: ["@babel/plugin-transform-modules-commonjs"]
+            plugins: [
+                ["@babel/plugin-proposal-decorators", {
+                    "legacy": true
+                }],
+                "@babel/plugin-transform-modules-commonjs"
+            ]
         })).pipe(gulp.dest('./dist')); // 这个pipe放到哪里的问题 增量 全量
 }
 

@@ -1,12 +1,12 @@
 {% extends '../../layouts/layout.html' %}
 {% block title %} 添加 {% endblock %}
 {% block head %}
+    <link rel="stylesheet" class="lazyload-css" href="/style/books-add.css">
+    
 {% endblock  %}
 {% block content %}
     {%  include "../../../components/add/add.html" %}
 {% endblock %}
 {% block scripts %}
-    <script class="lazyload-js">basket.require({url: '/scripts/books-add.bundle.js'}).then(function(){
-                console.log('entersdfas?');
-            });</script>
+    <script type="module" class="lazyload-js" src="/scripts/books-add.bundle.js"></script>
 {% endblock %}

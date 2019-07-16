@@ -5,8 +5,8 @@
     {% block head%}{% endblock %}
 </head>
 <body>
-    {% include "../../components/banner/banner.html" %}
-        layouthtml outer
+    {% include "../../components/banner/index.html" %} 
+        layouthtml outer 这里夸几层路径是根据在dist里的相对路径
     <div id="app">
         {% block content %} {% endblock %}
     </div>

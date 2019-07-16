@@ -8,7 +8,7 @@
   "books-view.js": "/scripts/books-view.bundle.js",
   "../assets/scripts/basket.full.min.js": "/../assets/scripts/basket.full.min.js",
   "../components/add/add.html": "/../components/add/add.html",
-  "../components/banner/banner.html": "/../components/banner/banner.html",
+  "../components/banner/index.html": "/../components/banner/index.html",
   "../components/list/list.html": "/../components/list/list.html",
   "../components/view/view.html": "/../components/view/view.html",
   "../views/books/pages/add.html": "/../views/books/pages/add.html",

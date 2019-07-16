@@ -1,12 +1,11 @@
 {% extends '../../layouts/layout.html' %}
 {% block title %} books massnage {% endblock %}
 {% block head %}
+<link rel="stylesheet" class="lazyload-css" href="/style/books-view.css">
 {% endblock  %}
 {% block content %}
     {%  include "../../../components/view/view.html" %}
 {% endblock %}
 {% block scripts %}
-    <script class="lazyload-js">basket.require({url: '/scripts/books-view.bundle.js'}).then(function(){
-                console.log('entersdfas?');
-            });</script>
+    <script type="module" class="lazyload-js" src="/scripts/books-view.bundle.js"></script>
 {% endblock %}

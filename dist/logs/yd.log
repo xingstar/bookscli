@@ -1,0 +1,386 @@
+[2019-07-15T17:56:23.001] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:23.036] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:24.898] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:25.471] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:26.225] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:29.791] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:31.555] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:32.325] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:33.077] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:33.712] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:03:34.303] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:04:32.017] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:04:33.396] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:06:15.320] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:06:16.485] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:07:45.811] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:08:25.097] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:09:51.538] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:09:51.731] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T18:09:53.456] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-15T22:37:54.135] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-16T07:14:56.729] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-16T10:02:37.800] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-16T10:02:38.981] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-16T10:05:33.376] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-16T10:08:51.637] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-16T10:11:10.166] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-16T10:11:12.112] [ERROR] cheese - AwilixResolutionError: Could not resolve 'booksService'.
+
+Resolution path: booksService
+    at resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:234:23)
+    at Object.get (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:65:32)
+    at new BooksController (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:23:5)
+    at newClass (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:85:24)
+    at Object.resolve (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/resolvers.js:294:20)
+    at Object.build (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix/lib/container.js:307:37)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:83:38)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+[2019-07-16T10:13:24.831] [ERROR] cheese - ReferenceError: Books is not defined
+    at BooksController.actionList (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:31:19)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:351:31)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
+[2019-07-16T21:31:24.064] [ERROR] cheese - ReferenceError: Books is not defined
+    at BooksController.actionList (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:31:19)
+    at memberInvoker (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/lib/invokers.js:85:45)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:45:18)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:346:16
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:44:32)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/@koa/router/lib/router.js:351:31)
+    at dispatch (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/awilix-koa/node_modules/koa-compose/index.js:34:12
