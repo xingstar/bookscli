@@ -396,3 +396,32 @@ Resolution path: booksService
     at createSSRStreamPromise (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:202:10)
     at BooksController.actionAdd (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:172:13)
     at <anonymous>
+[2019-07-17T17:42:44.185] [ERROR] cheese - TypeError: Cannot read property 'url' of undefined
+    at BooksService.getData (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/services/BooksService.js:39:58)
+    at BooksController.actionAdd (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:123:44)
+    at <anonymous>
+[2019-07-18T08:59:46.133] [ERROR] cheese - ReferenceError: res is not defined
+    at Node.<anonymous> (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:104:14)
+    at initialize.exports.each (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at BooksController.actionView (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:102:26)
+    at <anonymous>
+[2019-07-18T09:00:00.117] [ERROR] cheese - ReferenceError: res is not defined
+    at Node.<anonymous> (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:104:14)
+    at initialize.exports.each (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at BooksController.actionView (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:102:26)
+    at <anonymous>
+[2019-07-18T09:00:55.532] [ERROR] cheese - ReferenceError: res is not defined
+    at Node.<anonymous> (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:106:14)
+    at initialize.exports.each (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at BooksController.actionView (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:104:26)
+    at <anonymous>
+[2019-07-20T20:31:53.263] [ERROR] cheese - ReferenceError: res is not defined
+    at Node.<anonymous> (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:106:14)
+    at initialize.exports.each (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at BooksController.actionView (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:104:26)
+    at <anonymous>
+[2019-07-20T20:32:03.409] [ERROR] cheese - ReferenceError: res is not defined
+    at Node.<anonymous> (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:106:14)
+    at initialize.exports.each (/Users/ministar/Documents/code/coder/yideng/bookscli/node_modules/cheerio/lib/api/traversing.js:300:24)
+    at BooksController.actionView (/Users/ministar/Documents/code/coder/yideng/bookscli/dist/controllers/BooksController.js:104:26)
+    at <anonymous>

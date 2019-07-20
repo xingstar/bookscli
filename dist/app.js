@@ -77,4 +77,17 @@ app.use((0, _awilixKoa.loadControllers)(__dirname + "/controllers/*.js")); // �
 
 app.listen(_index.default.port, () => {
   console.log("books启动成功");
+}); // 进行错误监控的
+
+process.on("uncaughtException", function (err) {
+  // g.notifyError(a, { type: "uncaughtError" }, 
+  // function () { process.exit(1) }) 
+  logger.error(err);
+});
+process.on("unhandledRejection", function (info) {
+  // g.notifyError(a, { type: "uncaughtError" }) 
+  logger.error(info.reason);
+});
+app.on("error", function (err) {
+  logger.error(info.reason);
 });

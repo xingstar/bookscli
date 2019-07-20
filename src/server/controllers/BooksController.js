@@ -24,7 +24,21 @@ class BooksController{
         }); // 不需要在books前加/
         // 把站内跳和直接刷的判断封装成了一个函数，写在了config的renderFn方法里。
         if(ctx.request.header['x-pjax']){
-            renderFn(ctx,html);
+            // renderFn(ctx,html);
+            const $ = cheerio.load(html);
+            // ctx.body = $('.pjaxcontext').html();
+            let _result = '';
+            $('.pjaxcontext').each(function() { // 不能用箭头
+                _result += $(this).html();
+            });
+            $(".lazyload-js").each(function() {
+                console.log("🌲🌲🌲🌲listjs",$(this));
+                _result += `<script src="${$(this).attr("src")}"></script>`;
+            });
+            $(".lazyload-css").each(function() {
+                _result += `<link href="${$(this).attr("href")}">`;
+            });
+            ctx.body = _result;
         }else {
             console.log("直接刷");
             await createSSRStreamPromise(ctx,html);
@@ -53,8 +67,27 @@ class BooksController{
             data:result.data
         }); // 不需要在books前加/
         if(ctx.request.header['x-pjax']){
-            renderFn(ctx,html);
-        
+            // renderFn(ctx,html);
+            const $ = cheerio.load(html);
+            // ctx.body = $('.pjaxcontext').html();
+            let _result = '';
+            ctx.status =200;
+            ctx.type="html";
+            $('.pjaxcontext').each(function() { // 不能用箭头
+                // _result += $(this).html();
+                ctx.res.write($(this).html()); // 这么搞就是为了移动端的，pc端就是直接render,就是ctx.body = ， 就行了
+            });
+            $(".lazyload-js").each(function() {
+                console.log("🌲🌲🌲🌲viewjs",$(this));
+                // _result += `<script src="${$(this).attr("src")}"></script>`;
+                ctx.res.write(`<script src="${$(this).attr("src")}"></script>`);
+            });
+            $(".lazyload-css").each(function() {
+                // _result += `<link href="${$(this).attr("href")}">`;
+                ctx,res.write(`<link href="${$(this).attr("href")}">`);
+            });
+            ctx.res.end();
+            // ctx.body = _result;
         }else {
             await createSSRStreamPromise(ctx, html);
         //      ctx.body = html;
@@ -78,7 +111,23 @@ class BooksController{
         // ctx.body = await ctx.render('books/pages/add');
         const html = await ctx.render('books/pages/add'); // 不需要在books前加/
         if(ctx.request.header['x-pjax']){
-            renderFn(ctx,html);
+            // renderFn(ctx,html);
+            const $ = cheerio.load(html);
+            // ctx.body = $('.pjaxcontext').html();
+            let _result = '';
+            $('.pjaxcontext').each(function() { // 不能用箭头
+                _result += $(this).html();
+            });
+            $(".lazyload-js").each(function() {
+                // console.log("🌲🌲🌲🌲addjs",$(this));
+                
+                _result += `<script src="${$(this).attr("src")}"></script>`;
+                console.log('🌲🌲🌲🌲',_result);
+            });
+            $(".lazyload-css").each(function() {
+                _result += `<link href="${$(this).attr("href")}">`;
+            });
+            ctx.body = _result;
         }else {
             await createSSRStreamPromise(ctx, html);
         //      ctx.body = html;

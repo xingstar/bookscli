@@ -46,4 +46,17 @@ errHandler.error(app); // errorHandler放置的位置非常重要，koa2的use�
 app.use(loadControllers(__dirname + "/controllers/*.js")); // 直接去找controllers文件夹里的文件就可以了，不需要index.js的入口文件
 app.listen(config.port, () => {
     console.log("books启动成功");
+});
+// 进行错误监控的
+process.on("uncaughtException", function (err) { 
+  // g.notifyError(a, { type: "uncaughtError" }, 
+  // function () { process.exit(1) }) 
+  logger.error(err);
+})
+process.on("unhandledRejection", function (info) {
+  // g.notifyError(a, { type: "uncaughtError" }) 
+  logger.error(info.reason);
+});
+app.on("error", function (err) { 
+  logger.error(info.reason);
 })
